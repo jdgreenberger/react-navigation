@@ -307,7 +307,7 @@ const AppNavigator = createStackNavigator(
   }
 );
 
-export default () => <AppNavigator />;
+export default () => <AppNavigator persistenceStorageKey="NavState" />;
 
 const styles = StyleSheet.create({
   item: {
